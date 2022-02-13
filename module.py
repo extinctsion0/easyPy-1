@@ -24,11 +24,11 @@ def factorial(n): # To find the factorial of 2 numbers
     # single line to find factorial
     return 1 if (n == 1 or n == 0) else n * factorial(n - 1)
 
-def Area_circle(r):  # To find the area of a circle using the radius r
+def AreaCircle(r):  # To find the area of a circle using the radius r
     PI = 3.142
     return PI * (r * r)
 
-def Perimeter_circle(r): # To find the perimeter of a circle using the radius r
+def PerimeterCircle(r): # To find the perimeter of a circle using the radius r
     PI = 3.142
     return 2 * PI * r 
 
